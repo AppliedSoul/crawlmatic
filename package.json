@@ -4,8 +4,8 @@
   "description": "Crawler: Single library for static and dynamic scraping needs.",
   "main": "index.js",
   "scripts": {
-    "test": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-    "coverage": "node_modules/nyc/bin/nyc.js --reporter=html --reporter=text node_modules/mocha/bin/mocha"
+    "test": "node_modules/mocha/bin/mocha",
+    "coverage": "./node_modules/nyc/bin/nyc.js npm test && ./node_modules/nyc/bin/nyc.js report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
