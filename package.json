@@ -7,8 +7,16 @@
     "test": "node_modules/mocha/bin/mocha",
     "coverage": "node_modules/nyc/bin/nyc.js --reporter=html --reporter=text node_modules/mocha/bin/mocha"
   },
-  "author": "NOEL GAUR",
-  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppliedSoul/crawlmatic.git"
+  },
+  "author": "NoelGaur",
+  "license": "ASF-2.0",
+  "bugs": {
+    "url": "https://github.com/AppliedSoul/crawlmatic/issues"
+  },
+  "homepage": "https://github.com/AppliedSoul/crawlmatic",
   "dependencies": {
     "bluebird": "^3.5.1",
     "crawler": "^1.1.4",
