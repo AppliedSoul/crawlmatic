@@ -1,7 +1,7 @@
 # crawlmatic
 [![npm package](https://nodei.co/npm/crawlmatic.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/crawlmatic/)</br>
 
- [![Build Status](https://travis-ci.org/AppliedSoul/crawlmatic.svg?branch=master)](https://travis-ci.org/AppliedSoul/crawlmatic) [![Coverage Status](https://coveralls.io/repos/github/AppliedSoul/crawlmatic/badge.svg?branch=master)](https://coveralls.io/github/AppliedSoul/crawlmatic?branch=master)</br>
+ [![Build Status](https://travis-ci.org/AppliedSoul/crawlmatic.svg?branch=master)](https://travis-ci.org/AppliedSoul/crawlmatic) [![Coverage Status](https://coveralls.io/repos/github/AppliedSoul/crawlmatic/badge.svg?branch=master)](https://coveralls.io/github/AppliedSoul/crawlmatic?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/AppliedSoul/crawlmatic.svg)](https://greenkeeper.io/)</br>
 
 Single library for static or dynamic website crawling needs.</br>
 A standard wrapper for [HCCrawler](https://github.com/yujiosaka/headless-chrome-crawler/blob/master/docs/API.md) & [node-crawler](https://github.com/bda-research/node-crawler), based on bluebird promises.</br>
