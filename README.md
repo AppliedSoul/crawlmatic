@@ -39,7 +39,7 @@ crawler.setup().then(() => {
 <b>Static crawling example:</b>
 ```javascript
 const {
-  DynamicCrawler
+  StaticCrawler
 } = require('crawlmatic');
 //Initialize with node-crawler options
 const staticCrawler = new StaticCrawler({
