@@ -1,7 +1,7 @@
 {
   "name": "crawlmatic",
   "version": "0.1.1",
-  "description": "Single library for Static and Dynamic crawling needs.",
+  "description": "Crawler: Single library for static and dynamic scraping needs.",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha",
