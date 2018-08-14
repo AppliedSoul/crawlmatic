@@ -1,7 +1,7 @@
 {
   "name": "crawlmatic",
   "version": "0.1.0",
-  "description": "Crawler highland lib",
+  "description": "Single library for Static and Dynamic crawling needs.",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha",
@@ -11,6 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/AppliedSoul/crawlmatic.git"
   },
+  "keywords": [
+    "nodejs",
+    "crawler",
+    "chromium",
+    "scraping",
+    "dynamic scrapping"
+  ],
   "author": "NoelGaur",
   "license": "ASF-2.0",
   "bugs": {
