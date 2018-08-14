@@ -4,7 +4,7 @@
   "description": "Crawler: Single library for static and dynamic scraping needs.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha",
+    "test": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "coverage": "node_modules/nyc/bin/nyc.js --reporter=html --reporter=text node_modules/mocha/bin/mocha"
   },
   "repository": {
@@ -34,7 +34,9 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
+    "coveralls": "^3.0.2",
     "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^12.0.2"
   }
 }
