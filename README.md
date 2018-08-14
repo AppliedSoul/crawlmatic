@@ -3,7 +3,7 @@ Single library for static or dynamic website crawling needs.</br>
 A standard wrapper for [HCCrawler](https://github.com/yujiosaka/headless-chrome-crawler/blob/master/docs/API.md) & [node-crawler](https://github.com/bda-research/node-crawler), based on bluebird promises.</br>
 </br>
 </br>
-<b>Install </b>
+<b>Install using npm:</b>
 ```
 npm i crawlmatic --save
 ```
